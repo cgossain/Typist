@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
   s.name         = "Typist"
-  s.version      = "1.0.0"
+  s.version      = "1.0.0.1"
   s.summary      = "Small Swift UIKit keyboard manager for iOS apps."
 
   s.description  = <<-DESC
     Typist is a small, drop-in Swift UIKit keyboard manager for iOS apps.
-    It helps you manage keyboard's screen presence and behavior without 
+    It helps you manage keyboard's screen presence and behavior without
     notification center and Objective-C.
                    DESC
 
