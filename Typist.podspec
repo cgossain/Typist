@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/totocaster/Typist.git", :tag => "1.0.0" }
+  s.source       = { :git => 'https://github.com/cgossain/Typist.git', :tag => s.version.to_s }
 
   s.source_files = 'Typist.swift'
   s.framework    = 'UIKit'
